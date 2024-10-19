@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from the Git repository
-                #git 'https://github.com/your-repo/your-terraform-configs.git'
+                //#git 'https://github.com/your-repo/your-terraform-configs.git'
 				git clone
             }
         }
